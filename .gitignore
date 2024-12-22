@@ -15,6 +15,7 @@ venv/
 env/
 
 # Data
+cifar10/
 data/
 
 # Model checkpoints (optional, remove if you want to track models)
