@@ -4,10 +4,10 @@
 ![LR Finder Plot](images/lr_finder_plot.png)
 
 ## Training Session 1 Logs
-![Training Session 1 Logs](images/train_session_1_logs.png)
+![Training Session 1 Logs](images/train_session_1_logs.jpg)
 
 ## Training Session 2 Logs
-![Training Session 2 Logs](images/train_session_2_logs.png)
+![Training Session 2 Logs](images/train_session_2_logs.jpg)
 
 ### Log Details
 Each training session log shows:

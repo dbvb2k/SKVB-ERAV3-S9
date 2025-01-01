@@ -92,15 +92,13 @@ Validation transforms:
 ### Learning Rate Finder
 The learning rate finder automatically determines the optimal learning rate before training begins. Results are saved as 'lr_finder_plot.png'.
 
-### TensorBoard Metrics
-The following metrics are logged during training:
-- Training Loss
-- Validation Loss
-- Validation Accuracy (Top-1)
-- Validation Accuracy (Top-5)
-- Learning Rate
+## Markdown Logs of training
+View detailed training logs and visualizations in [viewlogs.md](viewlogs.md). Training visualizations include:
+- Learning rate finder plots
+- Training metrics over time
+- GPU utilization graphs
 
-To view training logs: 
+All visualization images are stored in the `images/` directory. 
 
 ### Dataset Structure 
 data/
@@ -124,10 +122,3 @@ The model automatically saves checkpoints during training:
 - Format: `{epoch}-{val_loss:.2f}.ckpt`
 - Keeps top 3 models based on validation loss
 
-## Markdown Logs
-View detailed training logs and visualizations in [viewlogs.md](viewlogs.md). Training visualizations include:
-- Learning rate finder plots
-- Training metrics over time
-- GPU utilization graphs
-
-All visualization images are stored in the `images/` directory. 
